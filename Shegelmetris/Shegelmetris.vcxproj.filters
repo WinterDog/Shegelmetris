@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{bc48fbf2-322f-4fde-89fc-b328ef900c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cell">
+      <UniqueIdentifier>{20012071-e23c-4c5d-9d5a-e57de9d7b4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{56755d06-ebaf-42e3-bb09-34a0f8fdf63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{60bc0bff-5849-4875-ab9b-1e6232f47673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighResClock">
+      <UniqueIdentifier>{30aba39f-6236-400a-8281-431eeafb97d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Figure">
+      <UniqueIdentifier>{a9609d7f-34bc-4d6d-b6dd-0ffd395f92eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoDevice">
+      <UniqueIdentifier>{6cc04e81-27cf-43b9-876f-4dc568e620f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{8178c5dd-2ef1-40f4-819a-d5e5570be1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{fffd8887-7f7f-408d-b066-51ed6f962453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{7dd05390-8bfe-4c56-bcdd-3f47ace2f2e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Cell\Cell.cpp">
+      <Filter>Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Figure\Figure.cpp">
+      <Filter>Figure</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\HighResClock\HighResClock.cpp">
+      <Filter>HighResClock</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\VideoDevice\VideoDevice.cpp">
+      <Filter>VideoDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\inc\stdafx.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shegelmetris.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Src\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Cell\Cell.h">
+      <Filter>Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Figure\Figure.h">
+      <Filter>Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\HighResClock\HighResClock.h">
+      <Filter>HighResClock</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\VideoDevice\VideoDevice.h">
+      <Filter>VideoDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Window\Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\inc\Serialize.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\inc\stdafx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shegelmetris.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Game\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

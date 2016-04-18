@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cereal>
+	<value0>
+		<marginLeft>5</marginLeft>
+		<marginTop>2</marginTop>
+		<marginBottom>2</marginBottom>
+		<startingSpeed>1.0</startingSpeed>
+		<speedIncrement>0.02</speedIncrement>
+		<fieldSize>
+			<x>10</x>
+			<y>20</y>
+		</fieldSize>
+		<resolution>
+			<x>1024</x>
+			<y>768</y>
+		</resolution>
+		<fullscreenMode>false</fullscreenMode>
+	</value0>
+</cereal>
+
