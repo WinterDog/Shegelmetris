@@ -14,12 +14,13 @@
 
 ### Структура
 
-- Debug/ - выходная директория для компиляции. Если решите перекомпилировать проект, бинарники будут находиться здесь.
-- Game/ - скомпилированный бинарный файл и runtime-ресурсы игры (иконка и файл настроек). Это рабочая директория приложения.
-- Shegelmetris/ - файл проекта Visual Studio и исходники.
-  * Shegelmetris/Src/ - исходные файлы.
-    * Shegelmetris/Src/ext/ - внешние библиотеки.
-- Temp/ - временная директория для Visual Studio.
+- **Game/** - скомпилированный бинарный файл и runtime-ресурсы игры (иконка и файл настроек). Это рабочая директория приложения.
+- **Shegelmetris/** - файл проекта Visual Studio и исходники.
+  * **Shegelmetris/Src/** - исходные файлы.
+    * **Shegelmetris/Src/ext/** - внешние библиотеки.
+Директории, которые создаются при компиляции:
+- **Debug/** - выходная директория для компиляции. Если решите перекомпилировать проект, бинарники будут находиться здесь.
+- **Temp/** - временная директория для Visual Studio.
 
 ### Благодарности
 
@@ -45,12 +46,13 @@ To run the compiled 32-bit release version, launch Game/Shegelmetris.exe. Game s
 
 ### Structure
 
-- Debug/ - output folder for the compilation. If you are going to recompile the project, look for the binaries here.
-- Game/ - compiled binary file and game resources (icon and settings XML). This is the working directory of the application.
-- Shegelmetris/ - VS project files and sources.
-  * Shegelmetris/Src/ - source files.
-    * Shegelmetris/Src/ext/ - external libraries.
-- Temp/ - temporary folder for Visual Studio stuff.
+- **Game/** - compiled binary file and game resources (icon and settings XML). This is the working directory of the application.
+- **Shegelmetris/** - VS project files and sources.
+  * **Shegelmetris/Src/** - source files.
+    * **Shegelmetris/Src/ext/** - external libraries.
+Created during the compilation:
+- **Debug/** - output folder for the compilation. If you are going to recompile the project, look for the binaries here.
+- **Temp/** - temporary folder for Visual Studio stuff.
 
 ### Credits
 
