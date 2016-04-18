@@ -2,17 +2,17 @@
 
 #### ENG
 
-Simple Tetris clone game, written by me as a part of technical test. It was written with C++ and pure OpenGL. The only external libraries in use are [GLM](http://glm.g-truc.net/) (math library) and [cereal](http://uscilab.github.io/cereal/) (settings serialization).
+Simple Tetris clone game, written by me as a part of technical test. It was created with C++ and pure OpenGL. The only external libraries in use are [GLM](http://glm.g-truc.net/) (math library) and [cereal](http://uscilab.github.io/cereal/) (settings serialization).
 
-This project is fully open source and in public domain. Feel free to use it however you want (just make sure to read **Credits** section about external libraries).
+The project is fully open source and in public domain. Feel free to use it however you want (just make sure to read **Credits** section about external libraries).
 
 ### Installation
 
-The game is written fully in Visual Studio 2015 Community Edition. VS solution is located at the root directory.
+The game is created with Visual Studio 2015 Community Edition. VS solution file is located in the root directory.
 
 ### Usage
 
-To run the compiled 32-bit release version, launch **Game/Shegelmetris.exe**. Game settings are in the **Game/Config.xml**.
+To run the compiled 32-bit release version, launch **Game/Shegelmetris.exe**. Game settings are defined in **Game/Config.xml**.
 
 ### Structure
 
