@@ -13,18 +13,10 @@ namespace wd
 	class VideoDevice
 	{
 	private:
-		//-----------------------------------------------------------------------------
-		// Static members
-		//-----------------------------------------------------------------------------
-
 		// Outer radius of the cell.
 		static const float						m_cellOuterRadius;
 		// Inner radius of the cell (to create 3D illusion).
 		static const float						m_cellInnerRadius;
-
-		//-----------------------------------------------------------------------------
-		// Non-static members
-		//-----------------------------------------------------------------------------
 
 		// Size of the view area.
 		glm::vec2								m_viewSize;
@@ -41,10 +33,6 @@ namespace wd
 		GLuint									m_fontBase;
 
 	public:
-		//-----------------------------------------------------------------------------
-		// Constructor and destructor
-		//-----------------------------------------------------------------------------
-
 		VideoDevice(
 			void);
 
@@ -52,10 +40,6 @@ namespace wd
 			void);
 
 	public:
-		//-----------------------------------------------------------------------------
-		// Methods
-		//-----------------------------------------------------------------------------
-
 		bool Initialize(
 			const HWND& hWnd,
 			const HDC& hDC,

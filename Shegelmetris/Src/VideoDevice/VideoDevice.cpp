@@ -181,8 +181,10 @@ void wd::VideoDevice::PresentFrame(
 void wd::VideoDevice::BuildFont(
 	void)
 {
+	// OpenGL object which will contain the font data.
 	m_fontBase = ::glGenLists(256);
 
+	// Create new font object with our settings.
 	HFONT font = ::CreateFont(
 		-16,
 		0,
@@ -192,6 +194,7 @@ void wd::VideoDevice::BuildFont(
 		FALSE,
 		FALSE,
 		FALSE,
+		// For Russian symbols to appear, we need to set it to default.
 		DEFAULT_CHARSET,
 		OUT_TT_PRECIS,
 		CLIP_DEFAULT_PRECIS,
@@ -199,19 +202,23 @@ void wd::VideoDevice::BuildFont(
 		FF_DONTCARE | DEFAULT_PITCH,
 		"Courier New");
 
+	// Select the current default device context font.
 	HFONT oldFont = (HFONT)::SelectObject(m_hDC, font);
 
 	{
+		// Create OpenGL object containing the font data.
 		const auto success = ::wglUseFontBitmaps(m_hDC, 0, 256, m_fontBase);
 		if (!success)
 		{
+			// Some error at the font creation.
 			const auto result = ::GetLastError();
 			assert(false);
 		}
 	}
-
+	// Select old font as the default device context font.
 	::SelectObject(m_hDC, oldFont);
 
+	// Now we can delete the font - OpenGL list was already created.
 	{
 		const auto success = ::DeleteObject(font);
 		if (!success)
@@ -222,9 +229,11 @@ void wd::VideoDevice::BuildFont(
 void wd::VideoDevice::Shutdown(
 	const HWND& hWnd)
 {
+	// Free OpenGL stuff.
 	::glDeleteLists(m_fontBase, 256);
-
+	// Reset current context.
 	::wglMakeCurrent(nullptr, nullptr);
+	// Delete OpenGL rendering context.
 	::wglDeleteContext(m_hGLRC);
 	::ReleaseDC(hWnd, m_hDC);
 }

@@ -48,9 +48,11 @@ namespace wd
 			void);
 
 	public:
+		// Check is the [key] pressed at the moment.
 		static bool IsKeyDown(
 			const Key& key);
 
+		// Callback for processing window events.
 		LRESULT ProcessEvent(
 			const HWND& hWindow,
 			const UINT& wmCode,
