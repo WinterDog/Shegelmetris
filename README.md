@@ -2,7 +2,7 @@
 
 #### RUS
 
-Простой клон Тетриса, написанный мной в качестве тестового задания во время поиска работы. Игра написана на C++ и чистом OpenGL без расширений и графических фреймворков. Использованные в проекте внешние библиотеки - [GLM](http://glm.g-truc.net/) (математические типы и методы) и [cereal](http://uscilab.github.io/cereal/) (сериализация файла настроек).
+Простой клон Тетриса, написанный мной в качестве тестового задания. Игра написана на C++ и чистом OpenGL без расширений и графических фреймворков. Использованные в проекте внешние библиотеки - [GLM](http://glm.g-truc.net/) (математические типы и методы) и [cereal](http://uscilab.github.io/cereal/) (сериализация файла настроек).
 
 Исходный код открыт, доступен в проекте и может быть использован в любых целях. Пожалуйста, обратитесь к разделу **Благодарности** для получения информации о лицензиях внешних библиотек.
 
@@ -38,7 +38,7 @@ ______
 
 #### ENG
 
-Simple Tetris clone game, written by me as a part of technical test while I was looking for a job. It was written with C++ and pure OpenGL. The only external libraries in use are [GLM](http://glm.g-truc.net/) (math library) and [cereal](http://uscilab.github.io/cereal/) (settings serialization).
+Simple Tetris clone game, written by me as a part of technical test. It was written with C++ and pure OpenGL. The only external libraries in use are [GLM](http://glm.g-truc.net/) (math library) and [cereal](http://uscilab.github.io/cereal/) (settings serialization).
 
 This project is fully open source and in public domain. Feel free to use it however you want (just make sure to read **Credits** section about external libraries).
 
